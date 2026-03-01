@@ -30,8 +30,7 @@ export default function Landing() {
             Get Expert Legal Help for Your Personal Injury Case
           </h1>
           <p className="text-lg sm:text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
-            Connect with top-rated personal injury attorneys in your area. 
-            Get your case evaluated and matched with the right legal representation.
+            blah blah blah I'm testing Amplify CI-CD pipeline...
           </p>
           <Button 
             onClick={() => navigate("/intake")}
