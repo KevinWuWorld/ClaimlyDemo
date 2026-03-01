@@ -40,7 +40,7 @@ export default function Header({ type = "plaintiff", showNav = true }: HeaderPro
           <Link to={homePath} className="flex items-center gap-2 text-xl">
             <Scale className="h-6 w-6 text-blue-600" />
             <span className="font-semibold text-slate-900">
-              {type === "plaintiff" ? "PI Platform" : "PI Platform - Firm Portal"}
+              {type === "plaintiff" ? "Claimly" : "Claimly - Firm Portal"}
             </span>
           </Link>
 

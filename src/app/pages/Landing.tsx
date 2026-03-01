@@ -13,7 +13,7 @@ export default function Landing() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 text-xl">
             <Shield className="h-6 w-6 text-blue-600" />
-            <span className="font-semibold">PI Platform</span>
+            <span className="font-semibold">Claimly</span>
           </div>
           <div className="flex items-center gap-3">
             <Button variant="ghost" onClick={() => navigate("/firm-login")}>
@@ -147,7 +147,7 @@ export default function Landing() {
               Your information is confidential and protected. We never sell your data.
             </p>
             <p className="text-xs mt-4">
-              © 2026 PI Platform. All rights reserved.
+              © 2026 Claimly. All rights reserved.
             </p>
           </div>
         </div>
